@@ -21,9 +21,9 @@ go to src/App.vue and change the applecaion-id to your own
 
 Run the following command in your terminal to install project dependencies using Yarn or npm.
 
-Using Yarn:
+Using npm:
 ```bash
-yarn install
+npm install
 
 ```
 Using Yarn:
