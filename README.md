@@ -34,14 +34,15 @@ yarn install
 ### 3. Start Development Server
 Launch the development server with the following command:
 
+```bash
+npm run dev
+```
+
+or
 
 ```bash
 yarn dev
 
-```
-or
-```bash
-npm run dev
 ```
 
 Feel free to explore the code in the src directory and customize it according to your project requirements.
