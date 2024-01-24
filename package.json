@@ -1,7 +1,7 @@
 {
   "name": "vue-example",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
   "dependencies": {
     "@paytweed/core-vue": "0.3.6",
     "ethers": "^6.9.1",
-    "vue": "^3.3.11"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

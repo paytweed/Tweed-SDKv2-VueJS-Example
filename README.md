@@ -1,18 +1,51 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + Tweed SDK Example
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to the Vue 3 + Tweed SDK example project! This repository demonstrates a straightforward implementation of the Tweed SDK with Vue 3.
 
-## Recommended IDE Setup
+## Project setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To get started, follow these simple steps:
 
-## Type Support For `.vue` Imports in TS
+### 1. Update Application ID
+go to src/App.vue and change the applecaion-id to your own
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```javascript
+// src/App.vue
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+<TweedProvider applicationId="YOUR-APP-ID"  :options="clientOptions" >
+    <Main />
+  </TweedProvider>
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```
+### 2. Install Dependencies
+
+Run the following command in your terminal to install project dependencies using Yarn or npm.
+
+Using Yarn:
+```bash
+yarn install
+
+```
+Using Yarn:
+```bash
+yarn install
+```
+
+### 3. Start Development Server
+Launch the development server with the following command:
+
+
+```bash
+yarn dev
+
+```
+or
+```bash
+npm run dev
+```
+
+Feel free to explore the code in the src directory and customize it according to your project requirements.
+
+Happy coding! 🚀
+
+

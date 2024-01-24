@@ -154,7 +154,7 @@
     ethers "6.8.0"
     events "3.3.0"
 
-"@paytweed/core-vue@workspace:^":
+"@paytweed/core-vue@~0.3.6":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@paytweed/core-vue/-/core-vue-0.3.6.tgz#7ad40a2f8f284fa70e004dda37b3ed49e7824ba4"
   integrity sha512-yxN5qCRA3jn5zjsdd1BNGcaJYHTTNo1uWcZHkVPxFDG0CrMuHSuID0TRdG7ylhLAyNaBiSHWhjLc1m4jX144Cg==
@@ -653,7 +653,7 @@ vue-tsc@^1.8.25:
     "@vue/language-core" "1.8.27"
     semver "^7.5.4"
 
-vue@^3.3.11:
+vue@^3.3.4:
   version "3.4.15"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.15.tgz#91f979844ffca9239dff622ba4c79c5d5524b88c"
   integrity sha512-jC0GH4KkWLWJOEQjOpkqU1bQsBwf4R1rsFtw5GQJbjHVKWDzO6P0nWWBTmjp1xSemAioDFj1jdaK1qa3DnMQoQ==
