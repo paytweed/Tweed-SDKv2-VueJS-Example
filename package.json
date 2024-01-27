@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@paytweed/core-vue": "0.3.6",
+    "@paytweed/core-vue": "^0.3.7",
     "ethers": "^6.9.1",
     "vue": "^3.3.4"
   },

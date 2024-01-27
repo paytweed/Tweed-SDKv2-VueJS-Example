@@ -2,12 +2,18 @@
 import { useAuth, useWeb3, Network } from '@paytweed/core-vue'
 import { BrowserProvider } from 'ethers'
 
-const { connect } = useAuth()
+const { connect, logout } = useAuth()
 const { getEthereumProvider } = useWeb3()
 
 function connnectToTweed ()  {
   connect({ oauth: false }).then((key: any) => {
     console.log({key})
+  })
+}
+
+function logoutFromTweed ()  {
+  logout().then(() => {
+    console.log("Logging out")
   })
 }
 
@@ -28,7 +34,8 @@ async function sendTransaction () {
 <template>
   <div>
     <h1>Vue Example</h1>
-    <button @click="connnectToTweed">Connect to Tweed</button>
+    <button @click="connnectToTweed">Connect</button>
+    <button @click="logoutFromTweed">Disconnect</button>
     <button @click="sendTransaction">send transaction</button>
   </div>
 </template>
